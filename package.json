@@ -1,0 +1,27 @@
+{
+  "name": "poc-unpkg-docker-server",
+  "version": "1.0.0",
+  "description": "proof of concept of an unpkg-server in a docker environment",
+  "main": "node_modules/unpkg-server/server.js",
+  "scripts": {
+    "start": "node node_modules/unpkg-server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DennisKae/poc-unpkg-docker-server.git"
+  },
+  "keywords": [
+    "poc",
+    "unpkg",
+    "docker"
+  ],
+  "author": "DennisKae",
+  "license": "MIT License",
+  "bugs": {
+    "url": "https://github.com/DennisKae/poc-unpkg-docker-server/issues"
+  },
+  "homepage": "https://github.com/DennisKae/poc-unpkg-docker-server#readme",
+  "dependencies": {
+    "unpkg-server": "0.0.4"
+  }
+}
